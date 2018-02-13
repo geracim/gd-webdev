@@ -29,7 +29,7 @@ body {
 	margin-top: 1%;
 	padding-left: 12px;	
 	float: left;
-	width: 98%;
+	width: 94%;
 	min-width: 280px;
 	border: 2px solid #bada55;
 	border-radius: 0px 0px 12px 12px;
@@ -64,16 +64,21 @@ body {
 
 /* MAIN STYLES */
 
+main {
+	width: 100%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	float: left;
+}
+
 .card {
 	position: relative;
 	overflow-y: auto;
 	overflow-x: hidden;
 	max-height: 500px;
 	min-width: 280px;
-	max-width: 400px;
 	margin-left: 1%;
-	margin-right: 1%;
-	margin-top: 1%;
 	padding-left: 12px;
 	padding-right: 12px;
 	float: left;
