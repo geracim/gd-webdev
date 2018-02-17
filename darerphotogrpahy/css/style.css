@@ -11,6 +11,10 @@
 
 /* GLOBAL STYLES */
 
+html {
+	font-size: 62.5%;
+}
+
 
 img {
 	width: 400px;
@@ -31,16 +35,10 @@ body {
 }
 
 article {
-	position: static;
-	float: left;
-	width: 650px;
-	margin: 20px;
-	padding: 12px;
-	border: 2px solid black;
-	border-radius: 12px;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
+
 }
+
+
 
 nav ul li {
 	display: inline;
@@ -49,9 +47,16 @@ nav ul li {
 
 /* HEADER STYLES */
 
-header {
-
+header a {
+	font-size: 16px; font-size: 1.6rem;
+	font-family: 'PT Sans', sans-serif;
+	color: #708090;
 }
+
+header a:hover {
+	color: #DCDCDC;
+}
+
 
 header ul {
 
@@ -61,6 +66,28 @@ header ul {
 
 main {
 
+}
+
+.post {
+	position: static;
+	float: left;
+	width: 650px;
+	margin: 20px;
+	padding: 12px;
+	border: 2px solid black;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	background-color: #DCDCDC;
+}
+
+.post figcaption {
+	color: #708090;
+}
+
+.post p {
+	font-size: 16px; font-size: 1.6rem;
+	font-family: 'PT Sans', sans-serif;
 }
 
 /* FOOTER STYLES */
