@@ -1,0 +1,67 @@
+body {
+	padding: 0%;
+	margin: 0%;
+}
+
+div {
+	float: left;
+	border: 2px solid black;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	width: 400px;
+	margin: 20px;
+	padding: 12px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 16px; font-size: 1.2rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 7px; font-size: 0.7rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+form {
+	float: left;
+	margin: 20px;
+	font-size: 9px; font-size: 0.9rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+form label {
+	font-weight: 700;
+	font-size: 7px; font-size: 0.7rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+	margin-left: 10px;
+}
+
+form input[type=text] {
+	border: 2px solid darkslategrey;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	padding-left: 8px;
+	margin-bottom: 20px;
+	font-size: 7px; font-size: 0.7rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+form input[type=button] {
+	background: white;
+	border: 2px solid darkslategrey;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	font-size: 7px; font-size: 0.7rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+
+
+
+

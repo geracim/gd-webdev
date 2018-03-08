@@ -1,11 +1,12 @@
 /*
-> THIS STYLESHEET APPLIE TO INDEX.HTML
+> THIS STYLESHEET APPLIES TO INDEX.HTML
 > The default text color is #FFFFFF (WHITE)
 > The defualt font family is "helvetica neue"
-	> Paragraph: 14pt black;
-	> h1: 20;
-	> h2: 18;
-	> h3: 16;
+	> Paragraph: 14px black;
+	> a: 14px;
+	> h1: 20px;
+	> h2: 18px;
+	> h3: 16px;
 > Corners should be rounded by 12px.
 */
 
@@ -13,16 +14,6 @@
 
 html {
 	font-size: 62.5%;
-}
-
-
-img {
-	width: 400px;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 12px;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
 }
 
 /* BODY STYLES */
@@ -38,8 +29,6 @@ article {
 
 }
 
-
-
 nav ul li {
 	display: inline;
 	margin-top: 12px;
@@ -51,14 +40,13 @@ nav ul li {
 
 header a {
 	font-size: 16px; font-size: 1.6rem;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	color: #708090;
 }
 
 header a:hover {
 	color: #DCDCDC;
 }
-
 
 header ul {
 
@@ -73,8 +61,9 @@ main {
 .post {
 	position: static;
 	float: left;
-	width: 650px;
-	margin: 20px;
+	width: 35%;
+	margin-left: 40px;
+	margin-top: 20px;
 	padding: 12px;
 	border: 2px solid black;
 	border-radius: 12px;
@@ -83,13 +72,28 @@ main {
 	background-color: #DCDCDC;
 }
 
+.post figure img {
+	width: 400px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	background: black;
+}
+
 .post figcaption {
 	color: #708090;
 }
 
+.post h2 {
+	font-size: 18px; font-size: 1.6rem;
+	font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
 .post p {
 	font-size: 16px; font-size: 1.6rem;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 /* FOOTER STYLES */
