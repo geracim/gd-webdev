@@ -12,6 +12,8 @@ div {
 	width: 400px;
 	margin: 20px;
 	padding: 12px;
+	background: #79CCCF;
+
 }
 
 h2 {
@@ -37,7 +39,7 @@ form label {
 	font-weight: 700;
 	font-size: 7px; font-size: 0.7rem;
 	font-family: 'PT Sans', 'Arial', sans-serif;
-	margin-left: 10px;
+	text-align: left;
 }
 
 form input[type=text] {
