@@ -1,0 +1,34 @@
+body {
+	margin: 2px;
+	padding: 0;
+}
+
+#wrapper {
+	background-color: green;
+	font-family: 'Ubuntu', sans-serif;
+	width: 99%;
+	float: left;
+	padding-left: 12px;
+}
+
+#navigation {
+	display: inline;
+}
+
+header { 
+	position: relative;
+	float: center;
+	width: 89%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px black solid;
+}
+
+footer {
+	position: relative;
+	float: center;
+	width: 89%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px black solid;
+}
